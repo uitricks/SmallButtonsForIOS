@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE179591608C4CB002B0402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE179581608C4CB002B0402 /* UIKit.framework */; };
+		2DE1795B1608C4CB002B0402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE1795A1608C4CB002B0402 /* Foundation.framework */; };
+		2DE1795D1608C4CB002B0402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE1795C1608C4CB002B0402 /* CoreGraphics.framework */; };
+		2DE179631608C4CB002B0402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DE179611608C4CB002B0402 /* InfoPlist.strings */; };
+		2DE179651608C4CB002B0402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE179641608C4CB002B0402 /* main.m */; };
+		2DE179691608C4CC002B0402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE179681608C4CC002B0402 /* AppDelegate.m */; };
+		2DE1796C1608C4CC002B0402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1796B1608C4CC002B0402 /* ViewController.m */; };
+		2DE1796F1608C4CC002B0402 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1796D1608C4CC002B0402 /* ViewController_iPhone.xib */; };
+		2DE179721608C4CC002B0402 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE179701608C4CC002B0402 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DE179541608C4CB002B0402 /* SmallButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE179581608C4CB002B0402 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DE1795A1608C4CB002B0402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DE1795C1608C4CB002B0402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DE179601608C4CB002B0402 /* SmallButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmallButton-Info.plist"; sourceTree = "<group>"; };
+		2DE179621608C4CB002B0402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DE179641608C4CB002B0402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DE179661608C4CB002B0402 /* SmallButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmallButton-Prefix.pch"; sourceTree = "<group>"; };
+		2DE179671608C4CB002B0402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DE179681608C4CC002B0402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DE1796A1608C4CC002B0402 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DE1796B1608C4CC002B0402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DE1796E1608C4CC002B0402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		2DE179711608C4CC002B0402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE179511608C4CB002B0402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE179591608C4CB002B0402 /* UIKit.framework in Frameworks */,
+				2DE1795B1608C4CB002B0402 /* Foundation.framework in Frameworks */,
+				2DE1795D1608C4CB002B0402 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE179491608C4CB002B0402 = {
+			isa = PBXGroup;
+			children = (
+				2DE1795E1608C4CB002B0402 /* SmallButton */,
+				2DE179571608C4CB002B0402 /* Frameworks */,
+				2DE179551608C4CB002B0402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE179551608C4CB002B0402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE179541608C4CB002B0402 /* SmallButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE179571608C4CB002B0402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DE179581608C4CB002B0402 /* UIKit.framework */,
+				2DE1795A1608C4CB002B0402 /* Foundation.framework */,
+				2DE1795C1608C4CB002B0402 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DE1795E1608C4CB002B0402 /* SmallButton */ = {
+			isa = PBXGroup;
+			children = (
+				2DE179671608C4CB002B0402 /* AppDelegate.h */,
+				2DE179681608C4CC002B0402 /* AppDelegate.m */,
+				2DE1796A1608C4CC002B0402 /* ViewController.h */,
+				2DE1796B1608C4CC002B0402 /* ViewController.m */,
+				2DE1796D1608C4CC002B0402 /* ViewController_iPhone.xib */,
+				2DE179701608C4CC002B0402 /* ViewController_iPad.xib */,
+				2DE1795F1608C4CB002B0402 /* Supporting Files */,
+			);
+			path = SmallButton;
+			sourceTree = "<group>";
+		};
+		2DE1795F1608C4CB002B0402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE179601608C4CB002B0402 /* SmallButton-Info.plist */,
+				2DE179611608C4CB002B0402 /* InfoPlist.strings */,
+				2DE179641608C4CB002B0402 /* main.m */,
+				2DE179661608C4CB002B0402 /* SmallButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE179531608C4CB002B0402 /* SmallButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE179751608C4CC002B0402 /* Build configuration list for PBXNativeTarget "SmallButton" */;
+			buildPhases = (
+				2DE179501608C4CB002B0402 /* Sources */,
+				2DE179511608C4CB002B0402 /* Frameworks */,
+				2DE179521608C4CB002B0402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallButton;
+			productName = SmallButton;
+			productReference = 2DE179541608C4CB002B0402 /* SmallButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE1794B1608C4CB002B0402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = UITricks;
+			};
+			buildConfigurationList = 2DE1794E1608C4CB002B0402 /* Build configuration list for PBXProject "SmallButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DE179491608C4CB002B0402;
+			productRefGroup = 2DE179551608C4CB002B0402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE179531608C4CB002B0402 /* SmallButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE179521608C4CB002B0402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE179631608C4CB002B0402 /* InfoPlist.strings in Resources */,
+				2DE1796F1608C4CC002B0402 /* ViewController_iPhone.xib in Resources */,
+				2DE179721608C4CC002B0402 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE179501608C4CB002B0402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE179651608C4CB002B0402 /* main.m in Sources */,
+				2DE179691608C4CC002B0402 /* AppDelegate.m in Sources */,
+				2DE1796C1608C4CC002B0402 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DE179611608C4CB002B0402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE179621608C4CB002B0402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DE1796D1608C4CC002B0402 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE1796E1608C4CC002B0402 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2DE179701608C4CC002B0402 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE179711608C4CC002B0402 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE179731608C4CC002B0402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DE179741608C4CC002B0402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE179761608C4CC002B0402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallButton/SmallButton-Prefix.pch";
+				INFOPLIST_FILE = "SmallButton/SmallButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DE179771608C4CC002B0402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallButton/SmallButton-Prefix.pch";
+				INFOPLIST_FILE = "SmallButton/SmallButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE1794E1608C4CB002B0402 /* Build configuration list for PBXProject "SmallButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE179731608C4CC002B0402 /* Debug */,
+				2DE179741608C4CC002B0402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE179751608C4CC002B0402 /* Build configuration list for PBXNativeTarget "SmallButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE179761608C4CC002B0402 /* Debug */,
+				2DE179771608C4CC002B0402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE1794B1608C4CB002B0402 /* Project object */;
+}
