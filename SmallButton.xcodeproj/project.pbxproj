@@ -16,6 +16,11 @@
 		2DE1796C1608C4CC002B0402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1796B1608C4CC002B0402 /* ViewController.m */; };
 		2DE1796F1608C4CC002B0402 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1796D1608C4CC002B0402 /* ViewController_iPhone.xib */; };
 		2DE179721608C4CC002B0402 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE179701608C4CC002B0402 /* ViewController_iPad.xib */; };
+		2DE1797A1608C4EA002B0402 /* SmallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE179791608C4EA002B0402 /* SmallButton.m */; };
+		2DE179801608C6EC002B0402 /* happyface.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1797C1608C6EC002B0402 /* happyface.png */; };
+		2DE179811608C6EC002B0402 /* happyface@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1797D1608C6EC002B0402 /* happyface@2x.png */; };
+		2DE179821608C6EC002B0402 /* sadface.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1797E1608C6EC002B0402 /* sadface.png */; };
+		2DE179831608C6EC002B0402 /* sadface@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1797F1608C6EC002B0402 /* sadface@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,12 @@
 		2DE1796B1608C4CC002B0402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2DE1796E1608C4CC002B0402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2DE179711608C4CC002B0402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2DE179781608C4EA002B0402 /* SmallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallButton.h; sourceTree = "<group>"; };
+		2DE179791608C4EA002B0402 /* SmallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallButton.m; sourceTree = "<group>"; };
+		2DE1797C1608C6EC002B0402 /* happyface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happyface.png; sourceTree = "<group>"; };
+		2DE1797D1608C6EC002B0402 /* happyface@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happyface@2x.png"; sourceTree = "<group>"; };
+		2DE1797E1608C6EC002B0402 /* sadface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sadface.png; sourceTree = "<group>"; };
+		2DE1797F1608C6EC002B0402 /* sadface@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sadface@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +90,7 @@
 		2DE1795E1608C4CB002B0402 /* SmallButton */ = {
 			isa = PBXGroup;
 			children = (
+				2DE1797B1608C6D0002B0402 /* Resources */,
 				2DE179671608C4CB002B0402 /* AppDelegate.h */,
 				2DE179681608C4CC002B0402 /* AppDelegate.m */,
 				2DE1796A1608C4CC002B0402 /* ViewController.h */,
@@ -86,6 +98,8 @@
 				2DE1796D1608C4CC002B0402 /* ViewController_iPhone.xib */,
 				2DE179701608C4CC002B0402 /* ViewController_iPad.xib */,
 				2DE1795F1608C4CB002B0402 /* Supporting Files */,
+				2DE179781608C4EA002B0402 /* SmallButton.h */,
+				2DE179791608C4EA002B0402 /* SmallButton.m */,
 			);
 			path = SmallButton;
 			sourceTree = "<group>";
@@ -99,6 +113,17 @@
 				2DE179661608C4CB002B0402 /* SmallButton-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE1797B1608C6D0002B0402 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1797C1608C6EC002B0402 /* happyface.png */,
+				2DE1797D1608C6EC002B0402 /* happyface@2x.png */,
+				2DE1797E1608C6EC002B0402 /* sadface.png */,
+				2DE1797F1608C6EC002B0402 /* sadface@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +180,10 @@
 				2DE179631608C4CB002B0402 /* InfoPlist.strings in Resources */,
 				2DE1796F1608C4CC002B0402 /* ViewController_iPhone.xib in Resources */,
 				2DE179721608C4CC002B0402 /* ViewController_iPad.xib in Resources */,
+				2DE179801608C6EC002B0402 /* happyface.png in Resources */,
+				2DE179811608C6EC002B0402 /* happyface@2x.png in Resources */,
+				2DE179821608C6EC002B0402 /* sadface.png in Resources */,
+				2DE179831608C6EC002B0402 /* sadface@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +197,7 @@
 				2DE179651608C4CB002B0402 /* main.m in Sources */,
 				2DE179691608C4CC002B0402 /* AppDelegate.m in Sources */,
 				2DE1796C1608C4CC002B0402 /* ViewController.m in Sources */,
+				2DE1797A1608C4EA002B0402 /* SmallButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

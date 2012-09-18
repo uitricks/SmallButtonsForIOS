@@ -7,12 +7,16 @@
 //
 
 #import "ViewController.h"
+#import "SmallButton.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+@synthesize smallButton;
+@synthesize button;
 
 - (void)viewDidLoad
 {
@@ -33,6 +37,26 @@
     } else {
         return YES;
     }
+}
+
+- (IBAction)smallButtonPressed:(id)sender
+{
+    UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Small Button Pressed"
+                                                 message:@"That was easy, you touched the button with the larger tap zone."
+                                                delegate:nil
+                                       cancelButtonTitle:@"OK"
+                                       otherButtonTitles: nil];
+    [av show];
+}
+
+- (IBAction)buttonPressed:(id)sender
+{
+    UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Button Pressed"
+                                                 message:@"Good hand eye cordination you managed to touch the small button without the larger tap area"
+                                                delegate:nil
+                                       cancelButtonTitle:@"OK"
+                                       otherButtonTitles: nil];
+    [av show];
 }
 
 @end

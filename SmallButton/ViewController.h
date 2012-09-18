@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class SmallButton;
+
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet SmallButton *smallButton;
+@property (nonatomic, strong) IBOutlet UIButton *button;
 
 @end
