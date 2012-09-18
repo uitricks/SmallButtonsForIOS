@@ -15,4 +15,7 @@ We can subclass UIButton and override the pointInside:withEvent method.  This me
 
 In this case we specify a larger region 44pt x 44pt, then when a touch comes in we return true of it was in that larger region.
 
+Keep In Mind:
+It is easy to align other elements in the touch zone of your small button so remember to keep large enough margins between controls.
+
 [Example Project](https://github.com/uitricks/SmallButtonsForIOS)
